@@ -1,0 +1,81 @@
+.projects-section {
+  background-color: #0a0a0a;
+  color: #eaeaea;
+  padding: 6rem 2rem;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  border-top: 1px solid white;
+}
+
+.projects-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  font-family: 'Clash Display', sans-serif;
+  color: #FDC209;
+  margin-bottom: 1rem;
+}
+
+.projects-subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #6CBE96;
+  font-weight: bold;
+}
+
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-btn {
+  padding: 0.75rem 1.5rem;
+  background: #f9f9f9;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.project-btn2{
+     padding: 0.75rem 1.5rem;
+  background: #f9f9f9;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.project-btn:hover {
+  background: #01523a;
+  color: #ccc;
+}
+.project-btn2:hover {
+  background: #e1ac0e;
+  color: #232121;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .projects-subtitle {
+    font-size: 1rem;
+  }
+
+  .project-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
